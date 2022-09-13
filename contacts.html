@@ -11,73 +11,77 @@
             rel="stylesheet"
         />
         <title>WebStudio - контакти веб студії - основна інформація</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            type="text/css"
+        />
         <link rel="stylesheet" href="./css/style.css" type="text/css" />
     </head>
     <body>
-        <header>
+        <header class="header container">
             <!-- Main site navigation and main contact references -->
-            <div class="header-container">
-                <nav class="navigation-header">
-                    <a
-                        href="./index.html"
-                        title="Логотип компанії"
-                        id="top-logo"
-                        lang="en"
-                        class="logo"
-                        >Web<span class="logo-upper">Studio</span></a
-                    >
-                    <ul class="navigation-list">
-                        <li class="item">
-                            <a
-                                href="./index.html"
-                                title="WebStudio - основна сторінка"
-                                class="site-navigation"
-                                >Студія</a
-                            >
-                        </li>
-                        <li class="item">
-                            <a
-                                href="./portfolio.html"
-                                title="WebStudio - приклади виконаних робіт"
-                                class="site-navigation"
-                                >Портфоліо</a
-                            >
-                        </li>
-                        <li class="item">
-                            <a
-                                href="contacts.html"
-                                title="WebStudio - основні контакти"
-                                class="site-navigation active"
-                                >Контакти</a
-                            >
-                        </li>
-                    </ul>
-                </nav>
-                <ul class="navigation">
+            <nav class="navigation-header">
+                <a
+                    href="./index.html"
+                    title="Логотип компанії"
+                    id="top-logo"
+                    lang="en"
+                    class="logo"
+                    >Web<span class="logo-upper">Studio</span></a
+                >
+                <ul class="navigation-list">
                     <li class="item">
                         <a
-                            href="mailto:info@devstudio.com"
-                            title="Контактний ємейл"
-                            class="contact-navigation"
-                            lang="en"
-                            >info@devstudio.com</a
+                            href="./index.html"
+                            title="WebStudio - основна сторінка"
+                            class="site-navigation"
+                            >Студія</a
                         >
                     </li>
                     <li class="item">
                         <a
-                            href="tel:+380961111111"
-                            title="Контактний номер телефону"
-                            class="contact-navigation"
-                            >+38 (096) 111-11-11</a
+                            href="./portfolio.html"
+                            title="WebStudio - приклади виконаних робіт"
+                            class="site-navigation active"
+                            >Портфоліо</a
+                        >
+                    </li>
+                    <li class="item">
+                        <a
+                            href="contacts.html"
+                            title="WebStudio - основні контакти"
+                            class="site-navigation"
+                            >Контакти</a
                         >
                     </li>
                 </ul>
-            </div>
+            </nav>
+            <ul class="navigation">
+                <li class="item">
+                    <a
+                        href="mailto:info@devstudio.com"
+                        title="Контактний ємейл"
+                        class="contact-navigation"
+                        lang="en"
+                        >info@devstudio.com</a
+                    >
+                </li>
+                <li class="item">
+                    <a
+                        href="tel:+380961111111"
+                        title="Контактний номер телефону"
+                        class="contact-navigation"
+                        >+38 (096) 111-11-11</a
+                    >
+                </li>
+            </ul>
         </header>
         <main>
-            <section>
+            <section class="section contacts">
                 <h1 class="visually-hidden">Ну дуже гарна картинка!</h1>
                 <img
+                    class="contacts-img"
                     src="./images/ukraine.jpg"
                     alt="https://images.pexels.com/photos/11635821/pexels-photo-11635821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     title="Українська дівчина"
@@ -85,13 +89,13 @@
             </section>
         </main>
         <!-- address + contact information -->
-        <footer class="footer-base">
-            <div class="footer-container">
+        <footer class="footer">
+            <div class="container">
                 <a
                     href="#top-logo"
                     title="Логотип компанії"
                     lang="en"
-                    class="logo footer"
+                    class="logo footer-logo"
                     >Web<span class="logo-bottom">Studio</span></a
                 >
                 <address class="address">
